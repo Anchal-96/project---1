@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #678788;
+        }
+        .container{
+            background-color: #daf7f2;
+            border: 3px solid #009688;
+            /* we can set margin/padding for top, bottom, left aand right like this */
+             /* padding-top: 56px;  */
+            /* padding-bottom: 56px; */
+             /* padding-left: 34px;   */
+               /* padding-right: 45px; */
+
+               /* margin-top: 45px; */
+               /* margin-bottom: 34px; */
+               /* margin-left: 34px; */
+               /* margin-right: 34px; */
+
+             padding: 45px 56px 5px 67px; 
+              /*padding/margin = top right bottom left  */
+            padding: 29px 19px;    
+               /* padding : y(top/bottom) x (left/right) */
+            margin: 30px;
+            border-radius: 14px;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laudantium earum illum quae corrupti vel nostrum voluptatem aut, voluptates minima, asperiores veniam nisi. Atque praesentium consectetur tempora explicabo porro sapiente.</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laudantium earum illum quae corrupti vel nostrum voluptatem aut, voluptates minima, asperiores veniam nisi. Atque praesentium consectetur tempora explicabo porro sapiente.</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laudantium earum illum quae corrupti vel nostrum voluptatem aut, voluptates minima, asperiores veniam nisi. Atque praesentium consectetur tempora explicabo porro sapiente.</p>
+    </div>
+</body>
+</html>

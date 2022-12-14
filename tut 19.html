@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            box-sizing: border-box;
+        
+        }
+        body{
+            font-family: 'Kanit', sans-serif;
+
+        }
+       .container{
+            width: 900px;
+            background-color: #e6edf1;
+            border: 3px solid rgb(124, 105, 124);
+            margin: 33px auto;
+       }
+       .item{
+          border: 3px solid gray;
+          margin: 12px 3px;
+          padding: 12px, 3px;
+          background: rgb(248, 235, 235);
+       }
+       #fruits{
+             float: left;
+             width: 48%;
+       }
+       #computer{
+            float: left;
+            width: 48%;
+       }
+       #stationary{
+           /* float: left; */
+           clear : both;
+           width: 100%;
+       }
+       p,h1{
+         /* text-align: right;  text shift in right direction */
+         /* text-align: left;     text shift in the left direction */
+        text-align: center;
+        text-align: justify;
+       }
+      h1{
+        margin: auto;
+        width: 455px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="friutspara" class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa porro? Fuga, placeat illo. Aut praesentium, earum doloribus sit accusantium impedit labore quas distinctio veniam, aliquid cum ullam iusto velit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolorem animi tempora quidem iste, autem cum repellendus odit possimus eaque aperiam beatae quae, ullam dicta inventore, nemo obcaecati. Quia adipisci voluptate error ut repellat?</p>
+
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa porro? Fuga, placeat illo. Aut praesentium, earum doloribus sit accusantium impedit labore quas distinctio veniam, aliquid cum ullam iusto velit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi assumenda et facere blanditiis, ipsum sit similique deserunt. Dolorum, ea. Explicabo quidem quo dolores natus, excepturi deserunt, aut odio, optio quasi corrupti architecto magnam reprehenderit!</p>
+
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa porro? Fuga, placeat illo. Aut praesentium, earum doloribus sit accusantium impedit labore quas distinctio veniam, aliquid cum ullam iusto velit?</p>
+
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa porro? Fuga, placeat illo. Aut praesentium, earum doloribus sit accusantium impedit labore quas distinctio veniam, aliquid cum ullam iusto velit?</p>
+
+        </div>
+    </div>
+</body>
+</html>

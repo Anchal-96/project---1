@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Position static (default), absolute, relative, fixed, sticky */
+       .container{
+        border: 2px solid black;
+        background-color: rgb(179, 199, 108);
+        height: 3444px;
+       } 
+        .box{
+             display: inline-block;   /* use for display list items horizontally instead of vertically */
+            border: 2px solid red;
+            width: 155px;
+            height: 155px;
+            margin: 2px;
+        }
+        #box{
+            position: absolute;
+        }
+        #box3{
+          /* relative : relative to it's normal position */
+          /* position: relative */
+          /* absolute: realtive to it's normal position */
+             /* position: absolute; */
+             /* top: 33px; */
+             /* left: 133px; */
+             /* fixed: Positions the element relative to the browser windows */
+             /* position: fixed ; */
+             /* right: 2px; */
+             /* bottom: 4px; */
+             /* stick with the page and then it will move with the page with scroll down the page */
+             position: sticky;
+             top: 2px;
+
+        }
+    </style>
+</head>
+<div class="container">
+<body>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>
